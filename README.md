@@ -14,7 +14,9 @@
 	* `void addAll(String name, String... phoneNumbers)`
 		* adds many phone numbers to a single name entry
 	* `void remove(String name)`
-		* removes an entry to the composite associate data type	
+		* removes an entry to the composite associate data type
+  	* Boolean hasEntry(String name)
+		* returns true if name exits in phone book else false
 	* `List<String> lookup(String name)`
 		* returns a phone number for the respective input `name`
 	* `String reverseLookup(String phoneNumber)`
